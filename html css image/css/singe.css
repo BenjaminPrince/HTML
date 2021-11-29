@@ -1,0 +1,39 @@
+/*BAS DE PAGE*/
+
+footer{
+    position: fixed;
+    background: black;
+    height:150px;
+    color:blanchedalmond;
+    box-sizing: border-box;
+    right:0;
+    left:0;
+    bottom:0;
+    padding:0;
+    
+}
+footer ul{
+     list-style-type: none;
+     
+}
+footer ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+footer ul li a:hover{
+    background-color: whitesmoke;
+    
+}
+
+footer address {
+    margin-right: 5px;
+    float: right;
+    color: white;
+}
+footer address a{
+    color:white
+}
+footer address a:hover{
+    background-color: grey;
+}
